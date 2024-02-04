@@ -1,0 +1,238 @@
+@media (min-width:1400px){
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+/* Text colors */
+.text-dark-custom {
+    color: #3a3a47!important; 
+}
+.text-grey-custom {
+    color: #5c5c5c!important; 
+}
+.text-light-grey-custom {
+    color: #818198!important; 
+}
+.text-dark-blue-custom {
+    color: #383861!important; 
+}
+.text-blue-custom {
+    color: #3498db!important; 
+}
+.text-green-custom {
+    color: #21bf73!important; 
+}
+
+/* Background colors*/
+.bg-primary-custom {
+    background-color: #f0f5f9!important;
+}
+
+/* Forms and buttons styles */
+.btn-blue-custom {
+    border: 2px solid #3498db;
+    color: #3498db;
+}
+.btn-blue-custom:hover {
+    background-color: #3498db;
+    color: #ffffff;
+}
+.btn-success-custom {
+    border: 2px solid #21bf73;
+    background-color: #21bf73;
+    color: #ffffff;
+}
+.btn-success-custom:hover {
+    color: #ffffff;
+    background-color: #21bf73;
+}
+
+
+/* Form control custom */
+.form-control-custom {
+    color: #222222;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    height: 45px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    background-color: #f0f5f8;
+    outline: none;
+    padding-left: 20px;
+}
+.form-control-custom:focus {
+    box-shadow: none;
+    background-color: #f0f5f8;
+}
+
+/* Font styles */
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat';
+}
+
+/* Navigation menu */
+.navbar .navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #6a6a6a;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--bs-navbar-active-color);
+
+}
+
+/* Home */
+.home {
+    padding: 150px 0 100px 0;
+}
+
+/* About */
+.about__card-1 {
+    background-color: #fff2e5;
+}
+.about__card-2 {
+    background-color: #f8f9fa;
+}
+.about__card-3 {
+    background-color: #f0f5f9;
+}
+.about__image {
+    width: 80px;
+}
+
+/* Features */
+.features__container {
+    background-color: #f8f9fa;
+}
+
+/* Results */
+.results__title {
+    color: #383B61;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+}
+.results__subtitle {
+    color: #3498db;
+    letter-spacing: 1px;
+}
+.results__card-image {
+    width: 80px;
+}
+
+/* Customer stories */
+.customers__container {
+    background-color: #f0f5f9;
+    padding: 130px 0 100px 0;
+}
+.carousel-item__text {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.carousel-item__image {
+    width: 65px;
+    border-radius: 50%;
+}
+
+/* Pricing */
+.pricing {
+    margin-top: 100px;
+}
+.pricing__card {
+    background-color: #f0f5f9;
+    border: transparent;
+}
+.pricing__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    color: #ABAFB3;
+}
+.card-image {
+    width: 120px;
+}
+.card-text__title {
+    color: #505050;
+}
+
+/* Queries */ 
+.queries__container {
+    background-color: #f0f5f9;
+    padding: 100px 20px;
+}
+.container__title {
+    margin-bottom: 70px;
+}
+.container__title-subtitle {
+    font-weight: 800;
+    color: #3a3a47;
+}
+.container__title-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    color: #6A7076;
+}
+.container__title-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #6A7076;
+}
+.accordion-item {
+    border: none;
+}
+.accordion-button {
+    font-family: 'Montserrat';
+    background-color: #f0f5f9;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.accordion-body {
+    background-color: #f0f5f9;
+}
+.accordion-button:focus {
+    border-color: #f0f5f9;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color:#f0f5f9;
+}
+.accordion-body {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+    color: #6A7076;
+}
+
+/* Start Trial */
+.start-trial {
+    margin: 120px 0 120px 0;
+}
+
+/* Footer */ 
+.footer {
+    background-color: #f0f5f9;
+}
+
+@media (min-width:768px) {
+    .queries__container {
+        background-color: #f0f5f9;
+        padding: 100px;
+    }
+}
